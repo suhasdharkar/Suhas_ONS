@@ -53,6 +53,7 @@ public class VerifyUserCanLogin {
 	@Test
 	public void userLogin() throws IOException {
 		lp.enteremailID();
+		
 		lp.enterpassword();
 		lp.Dologin();
 		Util1.xplicitWait(driver, By.xpath("//div[text()='Suhas']"));
