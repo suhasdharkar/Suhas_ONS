@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T07:47:06 IST" name="Suite" finished-at="2022-10-20T07:47:48 IST" duration-ms="42187">
+  <suite started-at="2022-10-20T10:36:41 IST" name="Suite" finished-at="2022-10-20T10:37:12 IST" duration-ms="30845">
     <groups>
     </groups>
-    <test started-at="2022-10-20T07:47:06 IST" name="chromeTest" finished-at="2022-10-20T07:47:48 IST" duration-ms="42187">
+    <test started-at="2022-10-20T10:36:41 IST" name="chromeTest" finished-at="2022-10-20T10:37:12 IST" duration-ms="30845">
       <class name="testClasses.VerifyUserCanLogin">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T07:47:06 IST" name="beforeClass" finished-at="2022-10-20T07:47:33 IST" duration-ms="27002" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T10:36:41 IST" name="beforeClass" finished-at="2022-10-20T10:36:56 IST" duration-ms="14602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T07:47:33 IST" name="beforeMethod" finished-at="2022-10-20T07:47:33 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T10:36:56 IST" name="beforeMethod" finished-at="2022-10-20T10:36:56 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userLogin()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T07:47:33 IST" name="userLogin" finished-at="2022-10-20T07:47:35 IST" duration-ms="2581" status="PASS">
+        <test-method signature="userLogin()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T10:36:56 IST" name="userLogin" finished-at="2022-10-20T10:36:59 IST" duration-ms="3387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T07:47:35 IST" name="afterMethod" finished-at="2022-10-20T07:47:36 IST" duration-ms="989" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T10:36:59 IST" name="afterMethod" finished-at="2022-10-20T10:37:00 IST" duration-ms="1084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,13 +37,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T07:47:36 IST" name="afterClass" finished-at="2022-10-20T07:47:37 IST" duration-ms="531" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanLogin@55141def]" started-at="2022-10-20T10:37:00 IST" name="afterClass" finished-at="2022-10-20T10:37:01 IST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testClasses.VerifyUserCanLogin -->
       <class name="testClasses.UserCanGetLowestPrice">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T07:47:37 IST" name="beforeClass" finished-at="2022-10-20T07:47:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T10:37:01 IST" name="beforeClass" finished-at="2022-10-20T10:37:01 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T07:47:37 IST" name="beforeMethod" finished-at="2022-10-20T07:47:37 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T10:37:01 IST" name="beforeMethod" finished-at="2022-10-20T10:37:01 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="getLowestPriceProduct()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T07:47:37 IST" name="getLowestPriceProduct" finished-at="2022-10-20T07:47:47 IST" duration-ms="10055" status="FAIL">
+        <test-method signature="getLowestPriceProduct()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T10:37:01 IST" name="getLowestPriceProduct" finished-at="2022-10-20T10:37:11 IST" duration-ms="10068" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 0 out of bounds for length 0]]>
@@ -104,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLowestPriceProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T07:47:47 IST" name="afterMethod" finished-at="2022-10-20T07:47:48 IST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T10:37:11 IST" name="afterMethod" finished-at="2022-10-20T10:37:12 IST" duration-ms="940" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T07:47:48 IST" name="afterClass" finished-at="2022-10-20T07:47:48 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.UserCanGetLowestPrice@7b98f307]" started-at="2022-10-20T10:37:12 IST" name="afterClass" finished-at="2022-10-20T10:37:12 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

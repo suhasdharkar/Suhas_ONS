@@ -53,7 +53,7 @@ public class UserCanGetLowestPrice {
 
 	@Test()
 	public void getLowestPriceProduct() {
-		//hp.searchProduct();
+		hp.searchProduct();
 		for (int i = 1; i <= 5; i++) {
 			if (i != 1) {
 				hp.switchPage(i);
